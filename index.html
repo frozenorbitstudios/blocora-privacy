@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Política de Privacidade do Blocora, desenvolvido pela Frozen Orbit Studios.">
+  <title>Política de Privacidade | Blocora</title>
+  <style>
+    :root {
+      color-scheme: dark;
+      --bg: #101522;
+      --panel: #191f30;
+      --text: #edf0fa;
+      --muted: #a6aec4;
+      --accent: #a78bfa;
+      --border: #30384d;
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--text);
+      font-family: Arial, Helvetica, sans-serif;
+      line-height: 1.75;
+    }
+
+    header, main, footer {
+      width: min(820px, calc(100% - 32px));
+      margin: auto;
+    }
+
+    header {
+      padding: 48px 0 28px;
+      border-bottom: 1px solid var(--border);
+    }
+
+    .brand {
+      color: var(--accent);
+      font-size: 13px;
+      font-weight: bold;
+      letter-spacing: 3px;
+      text-transform: uppercase;
+    }
+
+    h1 { font-size: clamp(28px, 5vw, 42px); line-height: 1.2; }
+    h2 { margin-top: 36px; font-size: 21px; }
+    p, li { color: var(--muted); }
+    a { color: var(--accent); }
+
+    .languages {
+      display: flex;
+      gap: 10px;
+      margin-top: 24px;
+    }
+
+    button {
+      padding: 10px 18px;
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      background: var(--panel);
+      color: var(--text);
+      cursor: pointer;
+      font-size: 14px;
+    }
+
+    button.active {
+      background: var(--accent);
+      color: #171226;
+      border-color: var(--accent);
+      font-weight: bold;
+    }
+
+    main {
+      padding: 28px 0 56px;
+    }
+
+    article {
+      padding: 28px;
+      background: var(--panel);
+      border: 1px solid var(--border);
+      border-radius: 14px;
+    }
+
+    .updated {
+      font-size: 13px;
+      color: var(--muted);
+    }
+
+    footer {
+      padding: 24px 0 40px;
+      border-top: 1px solid var(--border);
+      font-size: 13px;
+      color: var(--muted);
+    }
+
+    [hidden] { display: none !important; }
+
+    @media (max-width: 520px) {
+      article { padding: 20px; }
+      header { padding-top: 32px; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="brand">Frozen Orbit Studios</div>
+    <h1>Blocora</h1>
+    <p>Privacy and transparency.</p>
+
+    <nav class="languages" aria-label="Language selection">
+      <button id="pt-button" class="active" type="button" aria-pressed="true" onclick="setLanguage('pt')">Português</button>
+      <button id="en-button" type="button" aria-pressed="false" onclick="setLanguage('en')">English</button>
+    </nav>
+  </header>
+
+  <main>
+    <article id="pt-content" lang="pt-BR">
+      <h1>Política de Privacidade</h1>
+      <p class="updated">Última atualização: 22 de outubro de 2026</p>
+
+      <p>Esta Política de Privacidade explica como o Blocora, desenvolvido pela Frozen Orbit Studios, trata informações durante o uso do jogo.</p>
+
+      <h2>1. Conta e informações locais</h2>
+      <p>O Blocora não exige a criação de uma conta para jogar. O jogo pode armazenar localmente no dispositivo informações como progresso, recordes, configurações, estatísticas, moedas virtuais e itens desbloqueados.</p>
+      <p>Essas informações são utilizadas para manter o progresso e as preferências do jogador. O armazenamento local não significa, por si só, que os dados sejam transmitidos ao desenvolvedor.</p>
+      <p>Os dados locais podem ser perdidos se o jogo for desinstalado ou se os dados do aplicativo forem apagados nas configurações do dispositivo. O comportamento de backup depende do sistema e de suas configurações.</p>
+
+      <h2>2. Anúncios e Google AdMob</h2>
+      <p>O Blocora pretende utilizar o Google AdMob para exibir anúncios, incluindo anúncios recompensados.</p>
+      <p>Os serviços de publicidade podem coletar e processar informações como endereço IP, identificadores do dispositivo ou de publicidade, interações com anúncios e dados de diagnóstico. As informações efetivamente tratadas dependem da implementação, da configuração e das opções de privacidade disponíveis.</p>
+      <p>Esses dados podem ser utilizados para exibição e medição de anúncios, prevenção de fraudes e funcionamento dos serviços publicitários. O tratamento realizado pelo Google e por seus parceiros está sujeito às respectivas políticas.</p>
+      <p>Consulte a <a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">Política de Privacidade do Google</a> e as <a href="https://developers.google.com/admob/android/privacy/play-data-disclosure" target="_blank" rel="noopener noreferrer">informações do AdMob sobre dados e privacidade</a>.</p>
+
+      <h2>3. Compras dentro do aplicativo</h2>
+      <p>O Blocora poderá oferecer compras dentro do aplicativo no futuro. Caso esse recurso seja implementado, esta política será atualizada para refletir o funcionamento das compras e o tratamento de dados correspondente.</p>
+      <p>Se as compras forem processadas pela Google Play, as transações estarão sujeitas aos procedimentos e às políticas da plataforma.</p>
+
+      <h2>4. Compartilhamento de dados</h2>
+      <p>O jogo foi planejado para armazenar localmente os dados de progresso e as configurações descritos nesta política. Serviços externos integrados, como o Google AdMob, podem tratar dados conforme seu funcionamento e suas próprias políticas.</p>
+      <p>Se novos serviços que coletem ou transmitam dados forem adicionados, esta política deverá ser atualizada.</p>
+
+      <h2>5. Retenção e exclusão</h2>
+      <p>Os dados armazenados localmente podem ser apagados por meio das configurações do dispositivo ou pela desinstalação do jogo. Isso não garante a exclusão de informações que possam ter sido processadas separadamente por serviços de terceiros.</p>
+      <p>Para informações sobre dados tratados por terceiros, consulte as políticas e os canais de atendimento desses serviços.</p>
+
+      <h2>6. Segurança</h2>
+      <p>Os dados locais estão sujeitos às proteções oferecidas pelo dispositivo e pelo sistema operacional. Os serviços externos são responsáveis pelas práticas de segurança aplicáveis aos dados que processam. Nenhum método pode garantir segurança absoluta.</p>
+
+      <h2>7. Público e privacidade infantil</h2>
+      <p>O Blocora é um jogo de quebra-cabeça de público geral, sem foco específico em crianças. A classificação etária e o público-alvo declarados nas plataformas de distribuição devem corresponder ao jogo e à sua divulgação. Se o público-alvo ou as práticas de publicidade mudarem, as configurações e esta política serão revisadas conforme necessário.</p>
+
+      <h2>8. Alterações nesta política</h2>
+      <p>Esta política poderá ser atualizada caso mudem as funcionalidades do jogo, os serviços integrados ou as exigências legais e das plataformas. A versão vigente será disponibilizada nesta página.</p>
+
+      <h2>9. Contato</h2>
+      <p>Em caso de dúvidas sobre esta política, entre em contato com a Frozen Orbit Studios pelo e-mail <a href="mailto:frozen.orbit.studios@gmail.com">frozen.orbit.studios@gmail.com</a>.</p>
+    </article>
+
+    <article id="en-content" lang="en" hidden>
+      <h1>Privacy Policy</h1>
+      <p class="updated">Last updated: October 22, 2026</p>
+
+      <p>This Privacy Policy explains how Blocora, developed by Frozen Orbit Studios, handles information when you use the game.</p>
+
+      <h2>1. Accounts and local information</h2>
+      <p>Blocora does not require an account to play. The game may store information locally on your device, such as progress, high scores, settings, statistics, virtual coins, and unlocked items.</p>
+      <p>This information is used to maintain your progress and preferences. Local storage does not, by itself, mean that the data is transmitted to the developer.</p>
+      <p>Local data may be lost if you uninstall the game or clear the app's data in your device settings. Backup behavior depends on your system and its settings.</p>
+
+      <h2>2. Advertising and Google AdMob</h2>
+      <p>Blocora intends to use Google AdMob to display advertisements, including rewarded ads.</p>
+      <p>Advertising services may collect and process information such as IP address, device or advertising identifiers, ad interactions, and diagnostic data. The information actually processed depends on the implementation, configuration, and available privacy choices.</p>
+      <p>This data may be used to deliver and measure ads, prevent fraud, and operate advertising services. Processing by Google and its partners is subject to their respective policies.</p>
+      <p>Please review Google's <a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">Privacy Policy</a> and <a href="https://developers.google.com/admob/android/privacy/play-data-disclosure" target="_blank" rel="noopener noreferrer">AdMob data and privacy information</a>.</p>
+
+      <h2>3. In-app purchases</h2>
+      <p>Blocora may offer in-app purchases in the future. If this feature is implemented, this policy will be updated to describe how purchases work and how related data is handled.</p>
+      <p>If purchases are processed through Google Play, transactions will be subject to the platform's procedures and policies.</p>
+
+      <h2>4. Data sharing</h2>
+      <p>The game is designed to store the progress data and settings described in this policy locally. Integrated third-party services, such as Google AdMob, may process data according to their functionality and policies.</p>
+      <p>If new services that collect or transmit data are added, this policy will be updated.</p>
+
+      <h2>5. Data retention and deletion</h2>
+      <p>Locally stored data can be erased through your device settings or by uninstalling the game. This does not guarantee the deletion of information that may have been processed separately by third-party services.</p>
+      <p>For information about data processed by third parties, please consult their policies and support channels.</p>
+
+      <h2>6. Security</h2>
+      <p>Local data is subject to the protections provided by your device and operating system. External services are responsible for the security practices applicable to the data they process. No method can guarantee absolute security.</p>
+
+      <h2>7. Audience and children's privacy</h2>
+      <p>Blocora is a general-audience puzzle game that is not specifically aimed at children. The age rating and target audience declared on distribution platforms should accurately reflect the game and its marketing. If the target audience or advertising practices change, the relevant settings and this policy will be reviewed as needed.</p>
+
+      <h2>8. Changes to this policy</h2>
+      <p>This policy may be updated if the game's features, integrated services, or applicable legal and platform requirements change. The current version will be available on this page.</p>
+
+      <h2>9. Contact</h2>
+      <p>If you have questions about this policy, contact Frozen Orbit Studios at <a href="mailto:frozen.orbit.studios@gmail.com">frozen.orbit.studios@gmail.com</a>.</p>
+    </article>
+  </main>
+
+  <footer>
+    © 2026 Frozen Orbit Studios. Blocora.
+  </footer>
+
+  <script>
+    function setLanguage(language) {
+      const isPortuguese = language === 'pt';
+
+      document.getElementById('pt-content').hidden = !isPortuguese;
+      document.getElementById('en-content').hidden = isPortuguese;
+
+      document.getElementById('pt-button').classList.toggle('active', isPortuguese);
+      document.getElementById('en-button').classList.toggle('active', !isPortuguese);
+
+      document.getElementById('pt-button').setAttribute('aria-pressed', String(isPortuguese));
+      document.getElementById('en-button').setAttribute('aria-pressed', String(!isPortuguese));
+
+      document.documentElement.lang = isPortuguese ? 'pt-BR' : 'en';
+      document.title = isPortuguese
+        ? 'Política de Privacidade | Blocora'
+        : 'Privacy Policy | Blocora';
+    }
+  </script>
+</body>
+</html>
